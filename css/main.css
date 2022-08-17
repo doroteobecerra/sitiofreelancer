@@ -1,0 +1,135 @@
+:root{
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097A7;
+    --gris: #757575;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.titulo{
+    text-align: center;
+    font-size: 3.8rem;
+    
+}
+.titulo span{
+    font-size: 2rem;
+}
+
+/**navegacion**/
+nav{
+    background-color: var(--secundario);
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:hover{
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
+.portada{
+    background-image: url(../img/hero.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hero.jpg);;
+}
+.info-portada{
+   padding: 4rem;
+   text-align: center;
+}
+h2.titulo-portada{
+    margin: 0;
+    color: white;
+}
+section.portada p{
+    
+    color: white;
+}
+section.portada a{
+    padding: 1rem 3rem;
+    background-color: var(--secundario);
+    color: white;
+}
+.page{
+    box-shadow: 1px 2px 6px 2px var(--gris);
+    margin: 2rem auto;
+    width: 80%;
+    padding: 1rem;
+}
+.servicios{
+    display: flex;
+    justify-content: space-evenly;
+}
+.servicios section{
+    text-align: center;
+}
+.icon-servicio{
+    background-color: var(--primario);
+    border-radius: 50%;
+    padding: 0;
+    width: 10rem;
+    height: 10rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section h3 {
+    color: var(--secundario);
+}
+form{
+    background-color: var(--gris);
+    width: min( 50rem, 100% );
+    margin: 0 auto;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+legend{
+    color: var(--primario);
+}
+fieldset{
+    border: none;
+}
+label{
+    display: block;
+    color: white;
+}
+input{
+    padding: 1.5rem;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+}
+.submit{
+    display: flex;
+    justify-content: end;
+}
+.btn-enviar{
+    background-color: var(--secundario);
+}
+.nombre{
+    display: flex;
+    justify-content: space-between;
+}
+.input-correo{
+    width: 93%;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+textarea{
+    margin-bottom: 1rem;
+}
